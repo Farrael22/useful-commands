@@ -24,6 +24,9 @@ This page contains all useful information about Kubernetes.
 - Apply new settings to a resource
 ** kubectl apply -f <definition_yaml_name>.yml
 
+- Create a pod from a docker image
+** kubectl run <pod_name> --image=<image>
+
 - List all resources of a kind
 ** kubectl get <resource_type>
 
