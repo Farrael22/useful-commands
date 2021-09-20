@@ -9,13 +9,20 @@ This page contains all useful information about Kubernetes.
 - Jobs
 - Node
 - Pods
+- ReplicaSet
 - Service (svc)
-- Statefulsets
+- StatefulSet
 
 ## Common commands
 ```
 - Get information about the Cluster
 ** kubectl cluster-info
+
+- Create a new resource
+** kubectl create -f <definition_yaml_name>.yml
+
+- Apply new settings to a resource
+** kubectl apply -f <definition_yaml_name>.yml
 
 - List all resources of a kind
 ** kubectl get <resource_type>
