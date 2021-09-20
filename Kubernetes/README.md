@@ -47,4 +47,4 @@ This page contains all useful information about Kubernetes.
 - When using minikube, aim your docker env to it to push new images and make them available for pods creation
 ** eval $(minikube docker-env)
 ```
-**PS: You can add `-n <namespace_name>` or `--all-namespaces` to most of the above commands to access a specific cluster namespace or all of them at once.**
+**PS: You can add to most of the above commands `-n <namespace_name>` to access a specific cluster namespace or `--all-namespaces` to access all of them at once.**
